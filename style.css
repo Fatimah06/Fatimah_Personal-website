@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background-color: #29313E ;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px ;
+}
+.logo{
+    text-decoration: none;
+    color: #7262FF ;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em; 
+}
+.navigation a{
+    color: #7262FF ;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+.navigation a:hover{
+    color: #7a7780;;
+}
+.section{
+    padding: 100px 200px ;
+
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    background: url(images/background\ image\ 4.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.main h2{
+    color: #FCAC3F; 
+    font-size: 1.4em;
+    font-weight: 500;
+}
+.main h2 span{
+    display: inline-block;
+    margin-top: 1opx;
+    color: #d6dce4; 
+    font-size: 2em;
+    font-weight: 600;
+}
+.main h3{
+    color: aliceblue;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px; 
+}
+.main-btn{
+    color: #d6dce4;
+    background-color: #7262FF;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 700;
+    display: inline-block;
+    padding: 0.80em 1em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+.main-btn:hover{
+    background-color: #443a9e;
+    transform: scale(1.2);
+}
+.social-icons a{
+    color: #d6dce4;
+    font-size: 1.3em;
+    padding-right: 30px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: #7262FF;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row; 
+    flex-wrap: wrap;
+}
+.card{
+    background-color: #f7f5f2;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(171, 164, 229, 0.963);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    width: 55em;
+    transition: 0.7s ease;
+}
+.card:hover{
+    transform: scale(1.2); 
+}
+.icon{
+    color: #FCAC3F;
+    font-size: 4em;
+    text-align: center;
+}
+.info{
+    text-align: justify;
+}
+
+.info1 h3{
+    color: #7262FF;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 10px;
+    text-align: center;
+}
+.backgroundcolor{
+background-color: #f7f5f2;}
+
+.portfolio .content{
+    margin-top: 30px;
+}
+.portfolio-card{
+    background-color:#7262ff13;
+    border: 1px solid #fff;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+.portfolio-card:hover{
+    transform: scale(1.1);
+}
+.portfolio-card:hover .portfolio-image{
+    opacity: 0.9;  
+}
+.portfolio-image img{
+    width: 100%;
+}
+.portfolio-info{
+    padding: 1em;
+}
+.portfolio-category{
+    font-size: 0.8em;
+    color: #29313E;
+}
+.portfolio-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+    color: #FCAC3F;
+}
+.more-details{
+    text-decoration: none;
+    color: #7262FF;
+    font-size: 12px;
+}
+.more-details:hover{
+    color: #7a7780;
+}
+.contact .icon{
+    font-size: 2.5em;
+}
+.contact .info p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+.contact .card{
+    width: 20em;
+}
+.container{
+    width: 100%;
+    height: 100vn;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+form h3{
+    text-align: center;
+    color: #7262FF;
+    margin-bottom: 20px;
+}
+form input, form textarea{
+    border: 0px;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: #ebedf0;
+    font-size: 16px;
+    border-radius: 20px;
+    resize: none;
+    transition: all 0.5s;
+
+}
+form button{
+    padding: 10px;
+    background: #7262FF;
+    color: #ebedf0;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 14px auto 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.footer{
+    background-color: #29313E;
+    color: #d6dce4;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-title{
+    font-weight: 600;
+}
+.footer-title span{
+    color: #7262FF;
+}
+@media (max-width:1023px){
+    header{
+        padding: 12px 20px;
+    }
+    .navigation a{
+        padding-left: 10px;
+    }
+    .title{
+        font-size: 1.8em;
+    }
+    section{
+        padding: 80px 20px ;   
+     }
+     .main-content h2{
+        font-size: 1em;
+     }
+     .main-content h3{
+        font-size: 1.6em;
+     }
+     .content{
+        flex-direction: column;
+        align-items: center;
+     }
+}
+@media (max-width:641px){
+    body{
+        font-size: 12px;
+    }
+    .main-content h2{
+        font-size: 0.8em;
+    }
+    .main-content h3{
+        font-size: 1.4em;
+    }
+}
+@media (max-width:300px){
+    body{
+        font-size: 10px;
+    }
+}
+@media (max-width:828px){
+    body {
+        font-size: 16px;
+    }
+    .container {
+        width: 90%;
+    }
+}
+.cv{
+    color: #FCAC3F;
+    font-weight: 600;
+    font-size: 15;
+    text-decoration: none;
+
+}
+.cv:hover{
+    color: #7a7780;
+}
+.info h3{
+    text-align: center;
+    color: #FCAC3F;
+    margin-bottom: 1em;
+    width: 700;
+    font-size: 2em;
+}
+
+.blog-content{
+    margin-bottom: 1em;
+    margin-left: 6em;
+    margin-right: 6em;
+    text-align: justify;
+}
+.blog{
+    background-color: #f7f5f2;
+}
+
+
+.card-blog{
+    background-color: #f7f5f2;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(171, 164, 229, 0.963);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    width: 60em;
+    transition: 0.7s ease;
+}
+.icon-blog img{
+    height:25em ;
+    width: 100%;
+}
+
